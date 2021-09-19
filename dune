@@ -3,6 +3,6 @@
  (libraries 
    dream 
    caqti-driver-postgresql)
- (preprocess (pps lwt_ppx ppx_yojson_conv ppx_yojson)))
+ (preprocess (pps lwt_ppx ppx_yojson_conv)))
 
 (data_only_dirs lib node_modules)
