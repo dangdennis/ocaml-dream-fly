@@ -18,7 +18,7 @@ type message = { id : int; text : string } [@@deriving yojson]
 let () =
   Dream.run ~interface:"0.0.0.0"
   @@ Dream.logger
-  @@ Dream.sql_pool "postgresql://postgres:postgres@localhost:5432/postgres"
+  @@ Dream.sql_pool (Sys.getenv "DB_URL")
   @@ Dream.sql_sessions
   @@ Dream.router
        [
