@@ -1,5 +1,8 @@
 (executable
  (name app)
- (libraries dream))
+ (libraries 
+   dream 
+   caqti-driver-postgresql)
+ (preprocess (pps lwt_ppx ppx_yojson_conv ppx_yojson)))
 
 (data_only_dirs lib node_modules)

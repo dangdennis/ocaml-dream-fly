@@ -1,5 +1,0 @@
-(executable
- (name app)
- (libraries dream))
-
-(data_only_dirs lib node_modules)
