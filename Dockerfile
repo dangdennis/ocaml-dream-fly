@@ -6,7 +6,7 @@ RUN sudo apk add --update libev-dev openssl-dev
 WORKDIR /home/opam
 
 RUN opam init --disable-sandboxing
-RUN y
+RUN echo Y
 
 # Install dependencies
 ADD hello.opam hello.opam
