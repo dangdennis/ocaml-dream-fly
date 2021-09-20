@@ -1,10 +1,10 @@
-# dune exec ./app.exe
+# dune build
 # OCAMLPARAM: unset
 # Workspace root: /Users/dennisdang/Desktop/priority-box
-$ /usr/bin/getconf _NPROCESSORS_ONLN > /var/folders/xs/dprth0h1207bnbtvz6ljkqg00000gn/T/dune94e551.output 2> /dev/null
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /var/folders/xs/dprth0h1207bnbtvz6ljkqg00000gn/T/dunef214e9.output 2> /dev/null
 # Auto-detected concurrency: 16
 # disable binary cache
-$ /Users/dennisdang/.opam/default/bin/ocamlc.opt -config > /var/folders/xs/dprth0h1207bnbtvz6ljkqg00000gn/T/dune5006e6.output
+$ /Users/dennisdang/.opam/default/bin/ocamlc.opt -config > /var/folders/xs/dprth0h1207bnbtvz6ljkqg00000gn/T/dune2143f6.output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
@@ -111,4 +111,3 @@ $ /Users/dennisdang/.opam/default/bin/ocamlc.opt -config > /var/folders/xs/dprth
 #      ; windows_unicode = false
 #      }
 #  }
-# Workspace root: /Users/dennisdang/Desktop/priority-box

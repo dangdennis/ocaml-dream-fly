@@ -11,7 +11,7 @@ RUN opam install . --deps-only
 
 # Build project
 ADD . .
-RUN opam exec -- dune build
+RUN dune build
 
 FROM alpine:3.12 as run
 
