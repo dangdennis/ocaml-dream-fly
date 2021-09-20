@@ -3,15 +3,15 @@ FROM ocaml/opam:alpine as build
 # Install system dependencies
 RUN sudo apk add --update libev-dev openssl-dev
 
-WORKDIR /home/opam
+# WORKDIR /home/opam
 
 # Install dependencies
-ADD hello.opam hello.opam
-RUN opam install . --deps-only
+# ADD hello.opam hello.opam
+# RUN opam install . --deps-only
 
 # Build project
 ADD . .
-RUN dune build
+# RUN dune build ./app.exe
 
 FROM alpine:3.12 as run
 
