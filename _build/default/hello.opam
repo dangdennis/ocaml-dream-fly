@@ -1,0 +1,10 @@
+opam-version: "2.0"
+maintainer: "Dennis Dang"
+description: "Priority box slack bot"
+
+depends: [
+  "ocaml" {>= "4.08.0"}
+  "dune" {>= "2.0.0"}
+  "dream"
+  "ppx_yojson_conv"
+]
