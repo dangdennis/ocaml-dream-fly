@@ -117,7 +117,7 @@ new Map([["0.0.1",
                                              ["@opam/base-bytes",
                                              "opam:base"],
                                              ["@opam/ocamlfind",
-                                             "opam:1.8.1"],
+                                             "opam:1.9.1"],
                                              ["ocaml", "4.12.0"]])}]])],
   ["@opam/base-threads",
   new Map([["opam:base",
@@ -243,14 +243,6 @@ new Map([["0.0.1",
                                              "opam:2"],
                                              ["esy-openssl",
                                              "archive:https://github.com/openssl/openssl/archive/OpenSSL_1_1_1g.tar.gz#sha1:33324ff957edaae8ae575817b456320378da46ff"]])}]])],
-  ["@opam/conf-m4",
-  new Map([["opam:1",
-           {
-             packageLocation: "/Users/dennisdang/.esy/source/i/opam__s__conf_m4__opam__c__1__ecdf46a3/",
-             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
-                                             ["@opam/conf-m4", "opam:1"],
-                                             ["esy-m4",
-                                             "github:esy-packages/esy-m4#c7cf0ac9221be2b1f9d90e83559ca08397a629e7"]])}]])],
   ["@opam/conf-pkg-config",
   new Map([["opam:2",
            {
@@ -321,7 +313,7 @@ new Map([["0.0.1",
                                              "opam:4.1"],
                                              ["@opam/dune", "opam:2.9.1"],
                                              ["@opam/ocamlfind",
-                                             "opam:1.8.1"],
+                                             "opam:1.9.1"],
                                              ["@opam/result", "opam:1.5"],
                                              ["@opam/yojson", "opam:1.7.0"],
                                              ["ocaml", "4.12.0"]])}]])],
@@ -476,7 +468,7 @@ new Map([["0.0.1",
                                              ["@opam/ocamlbuild",
                                              "opam:0.14.0"],
                                              ["@opam/ocamlfind",
-                                             "opam:1.8.1"],
+                                             "opam:1.9.1"],
                                              ["@opam/seq", "opam:base"],
                                              ["@opam/stdlib-shims",
                                              "opam:0.3.0"],
@@ -528,7 +520,7 @@ new Map([["0.0.1",
                                              ["@opam/ocamlbuild",
                                              "opam:0.14.0"],
                                              ["@opam/ocamlfind",
-                                             "opam:1.8.1"],
+                                             "opam:1.9.1"],
                                              ["@opam/topkg", "opam:1.0.3"],
                                              ["ocaml", "4.12.0"]])}]])],
   ["@opam/ke",
@@ -555,7 +547,7 @@ new Map([["0.0.1",
                                              ["@opam/ocamlbuild",
                                              "opam:0.14.0"],
                                              ["@opam/ocamlfind",
-                                             "opam:1.8.1"],
+                                             "opam:1.9.1"],
                                              ["@opam/topkg", "opam:1.0.3"],
                                              ["ocaml", "4.12.0"]])}]])],
   ["@opam/lwt",
@@ -694,7 +686,7 @@ new Map([["0.0.1",
                                              ["@opam/ocamlbuild",
                                              "opam:0.14.0"],
                                              ["@opam/ocamlfind",
-                                             "opam:1.8.1"],
+                                             "opam:1.9.1"],
                                              ["@opam/topkg", "opam:1.0.3"],
                                              ["ocaml", "4.12.0"]])}]])],
   ["@opam/multipart_form",
@@ -781,13 +773,12 @@ new Map([["0.0.1",
                                              "opam:0.14.0"],
                                              ["ocaml", "4.12.0"]])}]])],
   ["@opam/ocamlfind",
-  new Map([["opam:1.8.1",
+  new Map([["opam:1.9.1",
            {
-             packageLocation: "/Users/dennisdang/.esy/source/i/opam__s__ocamlfind__opam__c__1.8.1__ab68a5ee/",
+             packageLocation: "/Users/dennisdang/.esy/source/i/opam__s__ocamlfind__opam__c__1.9.1__492060b0/",
              packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
-                                             ["@opam/conf-m4", "opam:1"],
                                              ["@opam/ocamlfind",
-                                             "opam:1.8.1"],
+                                             "opam:1.9.1"],
                                              ["ocaml", "4.12.0"]])}]])],
   ["@opam/ocamlfind-secondary",
   new Map([["opam:1.8.1",
@@ -797,7 +788,7 @@ new Map([["0.0.1",
                                              ["@opam/ocaml-secondary-compiler",
                                              "opam:4.08.1-1"],
                                              ["@opam/ocamlfind",
-                                             "opam:1.8.1"],
+                                             "opam:1.9.1"],
                                              ["@opam/ocamlfind-secondary",
                                              "opam:1.8.1"]])}]])],
   ["@opam/ocamlformat-rpc-lib",
@@ -923,7 +914,7 @@ new Map([["0.0.1",
                                              ["@opam/ocamlbuild",
                                              "opam:0.14.0"],
                                              ["@opam/ocamlfind",
-                                             "opam:1.8.1"],
+                                             "opam:1.9.1"],
                                              ["@opam/ptime", "opam:0.8.5"],
                                              ["@opam/result", "opam:1.5"],
                                              ["@opam/topkg", "opam:1.0.3"],
@@ -953,7 +944,7 @@ new Map([["0.0.1",
                                              ["@opam/ocamlbuild",
                                              "opam:0.14.0"],
                                              ["@opam/ocamlfind",
-                                             "opam:1.8.1"],
+                                             "opam:1.9.1"],
                                              ["@opam/result", "opam:1.5"],
                                              ["@opam/rresult", "opam:0.6.0"],
                                              ["@opam/topkg", "opam:1.0.3"],
@@ -1014,7 +1005,7 @@ new Map([["0.0.1",
                                              ["@opam/ocamlbuild",
                                              "opam:0.14.0"],
                                              ["@opam/ocamlfind",
-                                             "opam:1.8.1"],
+                                             "opam:1.9.1"],
                                              ["@opam/topkg", "opam:1.0.3"],
                                              ["ocaml", "4.12.0"]])}]])],
   ["@opam/uchar",
@@ -1057,7 +1048,7 @@ new Map([["0.0.1",
                                              ["@opam/ocamlbuild",
                                              "opam:0.14.0"],
                                              ["@opam/ocamlfind",
-                                             "opam:1.8.1"],
+                                             "opam:1.9.1"],
                                              ["@opam/topkg", "opam:1.0.3"],
                                              ["@opam/uchar", "opam:0.0.2"],
                                              ["@opam/uutf", "opam:1.0.2"],
@@ -1080,12 +1071,6 @@ new Map([["0.0.1",
              packageLocation: "/Users/dennisdang/.esy/source/i/esy_help2man__b3621e54/",
              packageDependencies: new Map([["esy-help2man",
                                            "github:esy-packages/esy-help2man#c8e6931d1dcf58a81bd801145a777fd3b115c443"]])}]])],
-  ["esy-m4",
-  new Map([["github:esy-packages/esy-m4#c7cf0ac9221be2b1f9d90e83559ca08397a629e7",
-           {
-             packageLocation: "/Users/dennisdang/.esy/source/i/esy_m4__779f59f5/",
-             packageDependencies: new Map([["esy-m4",
-                                           "github:esy-packages/esy-m4#c7cf0ac9221be2b1f9d90e83559ca08397a629e7"]])}]])],
   ["esy-openssl",
   new Map([["archive:https://github.com/openssl/openssl/archive/OpenSSL_1_1_1g.tar.gz#sha1:33324ff957edaae8ae575817b456320378da46ff",
            {
@@ -1122,17 +1107,12 @@ new Map([["0.0.1",
                                              "opam:1.8.1"],
                                              ["ocaml", "4.12.0"]])}]])]]);
 
-let topLevelLocatorPath = "../../";
 let locatorsByLocations = new Map([
 ["../../", topLevelLocator],
   ["../../../../.esy/source/i/esy_help2man__b3621e54/",
   {
     name: "esy-help2man",
     reference: "github:esy-packages/esy-help2man#c8e6931d1dcf58a81bd801145a777fd3b115c443"}],
-  ["../../../../.esy/source/i/esy_m4__779f59f5/",
-  {
-    name: "esy-m4",
-    reference: "github:esy-packages/esy-m4#c7cf0ac9221be2b1f9d90e83559ca08397a629e7"}],
   ["../../../../.esy/source/i/esy_ocaml__s__substs__0.0.1__19de1ee1/",
   {
     name: "@esy-ocaml/substs",
@@ -1205,10 +1185,6 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/conf-libssl",
     reference: "opam:3"}],
-  ["../../../../.esy/source/i/opam__s__conf_m4__opam__c__1__ecdf46a3/",
-  {
-    name: "@opam/conf-m4",
-    reference: "opam:1"}],
   ["../../../../.esy/source/i/opam__s__conf_pkg_config__opam__c__2__f94434f0/",
   {
     name: "@opam/conf-pkg-config",
@@ -1373,10 +1349,10 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/ocamlbuild",
     reference: "opam:0.14.0"}],
-  ["../../../../.esy/source/i/opam__s__ocamlfind__opam__c__1.8.1__ab68a5ee/",
+  ["../../../../.esy/source/i/opam__s__ocamlfind__opam__c__1.9.1__492060b0/",
   {
     name: "@opam/ocamlfind",
-    reference: "opam:1.8.1"}],
+    reference: "opam:1.9.1"}],
   ["../../../../.esy/source/i/opam__s__ocamlfind_secondary__opam__c__1.8.1__fd7e59c4/",
   {
     name: "@opam/ocamlfind-secondary",
@@ -1649,33 +1625,11 @@ let locatorsByLocations = new Map([
           return blacklistCheck(match);
       
 
-      if (relativeLocation.length >= 43 && relativeLocation[42] === '/')
-        if (match = locatorsByLocations.get(relativeLocation.substr(0, 43)))
-          return blacklistCheck(match);
-      
-
       if (relativeLocation.length >= 6 && relativeLocation[5] === '/')
         if (match = locatorsByLocations.get(relativeLocation.substr(0, 6)))
           return blacklistCheck(match);
       
 
-    /*
-      this can only happen if inside the _esy
-      as any other path will implies the opposite
-
-      topLevelLocatorPath = ../../
-
-      | folder              | relativeLocation |
-      | ------------------- | ---------------- |
-      | /workspace/app      | ../../           |
-      | /workspace          | ../../../        |
-      | /workspace/app/x    | ../../x/         |
-      | /workspace/app/_esy | ../              |
-
-    */
-    if (!relativeLocation.startsWith(topLevelLocatorPath)) {
-      return topLevelLocator;
-    }
     return null;
   };
   
