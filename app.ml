@@ -18,19 +18,19 @@ type message = { id : int; text : string } [@@deriving yojson]
 let () =
   Dream.run ~interface:"0.0.0.0"
   @@ Dream.logger
-  @@ Dream.sql_pool (Sys.getenv "DB_URL")
-  @@ Dream.sql_sessions
+  (* @@ Dream.sql_pool (Sys.getenv "DB_URL")
+  @@ Dream.sql_sessions *)
   @@ Dream.router
        [
          Dream.get "/" (fun _ ->
              Dream.html "Dream started by Docker Compose, built with opam!");
-         Dream.get "/comments" (fun request ->
+         (* Dream.get "/comments" (fun request ->
              let%lwt comments = Dream.sql request list_comments in
 
              let a = List.map (fun (id, text) -> { id; text }) comments in
 
              let json = [%yojson_of: message list] a in
 
-             json |> Yojson.Safe.to_string |> Dream.json);
+             json |> Yojson.Safe.to_string |> Dream.json); *)
        ]
   @@ Dream.not_found
