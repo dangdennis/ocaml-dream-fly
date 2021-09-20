@@ -1,0 +1,7 @@
+(executable
+ (name app)
+ (libraries caqti-driver-postgresql dream)
+ (preprocess
+  (pps lwt_ppx)))
+
+(data_only_dirs _esy esy.lock)

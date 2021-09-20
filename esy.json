@@ -1,4 +1,8 @@
 {
+    "scripts": {
+        "start": "esy b dune exec ./src/app.exe",
+        "build": "esy b dune build"
+    },
     "dependencies": {
         "@opam/caqti-driver-postgresql": "*",
         "@opam/dream": "1.0.0~alpha2",
@@ -13,7 +17,7 @@
     },
     "esy": {
         "build": [
-            "dune build --root . ./app.exe"
+            "dune build --root . ./src/app.exe"
         ]
     }
 }

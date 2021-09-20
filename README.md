@@ -6,7 +6,7 @@ To install:
 
 `opam exec -- dune build`
 
-To run app without docker: 
+To run app without docker:
 
 `dune exec ./app.exe`
 
@@ -31,3 +31,13 @@ there automatically, on push, by a
 <br>
 
 [Up to the example index](../#deploying)
+
+# Run steps
+
+1 `esy start`
+
+# Build steps
+
+1. `esy build`
+
+https://esy.sh/docs/en/getting-started.html
