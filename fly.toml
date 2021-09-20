@@ -1,6 +1,6 @@
-# fly.toml file generated for solitary-silence-5439 on 2021-09-19T18:34:01-07:00
+# fly.toml file generated for black-star-7704 on 2021-09-20T16:32:55-07:00
 
-app = "solitary-silence-5439"
+app = "black-star-7704"
 
 kill_signal = "SIGINT"
 kill_timeout = 5

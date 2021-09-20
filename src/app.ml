@@ -23,7 +23,7 @@ let () =
   @@ Dream.router
        [
          Dream.get "/" (fun _ ->
-             Dream.html "Dream started by Docker Compose, built with opam!");
+             Dream.html "Dream started by Docker Compose, built with esy!");
          (* Dream.get "/comments" (fun request ->
              let%lwt comments = Dream.sql request list_comments in
 
