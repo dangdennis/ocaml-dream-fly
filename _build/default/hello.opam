@@ -6,5 +6,4 @@ depends: [
   "ocaml" {>= "4.08.0"}
   "dune" {>= "2.0.0"}
   "dream"
-  "ppx_yojson_conv"
 ]
