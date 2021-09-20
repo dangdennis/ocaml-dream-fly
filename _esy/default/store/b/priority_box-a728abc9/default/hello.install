@@ -1,0 +1,8 @@
+lib: [
+  "/Users/dennisdang/Desktop/priority-box/_esy/default/store/b/priority_box-a728abc9/install/default/lib/hello/META"
+  "/Users/dennisdang/Desktop/priority-box/_esy/default/store/b/priority_box-a728abc9/install/default/lib/hello/dune-package"
+  "/Users/dennisdang/Desktop/priority-box/_esy/default/store/b/priority_box-a728abc9/install/default/lib/hello/opam"
+]
+doc: [
+  "/Users/dennisdang/Desktop/priority-box/_esy/default/store/b/priority_box-a728abc9/install/default/doc/hello/README.md"
+]

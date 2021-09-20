@@ -1,0 +1,308 @@
+# /Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__dune-opam__c__2.9.1-ac6b800c/bin/dune build --root . ./app.exe
+# OCAMLPARAM: unset
+# Workspace root: /Users/dennisdang/Desktop/priority-box
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /tmp/dune7896be.output 2> /dev/null
+# Auto-detected concurrency: 16
+# disable binary cache
+$ /Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.9.1-45972748/bin/ocamlfind printconf path > /tmp/duneec6030.output
+$ /Users/dennisdang/.esy/3_____________________________________________________________/i/ocaml-4.12.0-44d44425/bin/ocamlc.opt -config > /tmp/dune5f7c5e.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some
+#        External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/ocaml-4.12.0-44d44425/lib/ocaml"
+#  ; ocaml_bin =
+#      External
+#        "/Users/dennisdang/.esy/3_____________________________________________________________/i/ocaml-4.12.0-44d44425/bin"
+#  ; ocaml =
+#      Ok
+#        External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/ocaml-4.12.0-44d44425/bin/ocaml"
+#  ; ocamlc =
+#      External
+#        "/Users/dennisdang/.esy/3_____________________________________________________________/i/ocaml-4.12.0-44d44425/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok
+#        External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/ocaml-4.12.0-44d44425/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok
+#        External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/ocaml-4.12.0-44d44425/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok
+#        External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/ocaml-4.12.0-44d44425/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.9.1-45972748/lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "/Users/dennisdang/.esy/3_____________________________________________________________/i/ocaml-4.12.0-44d44425/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/Users/dennisdang/Desktop/priority-box"
+#        ; "INSIDE_DUNE" :
+#            "/Users/dennisdang/Desktop/priority-box/_esy/default/store/b/priority_box-a728abc9/default"
+#        ; "MANPATH" :
+#            "/Users/dennisdang/Desktop/priority-box//Users/dennisdang/Desktop/priority-box/_esy/default/store/b/priority_box-a728abc9/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/dennisdang/Desktop/priority-box//Users/dennisdang/Desktop/priority-box/_esy/default/store/b/priority_box-a728abc9/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/dennisdang/Desktop/priority-box//Users/dennisdang/Desktop/priority-box/_esy/default/store/b/priority_box-a728abc9/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path =
+#      [ External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__caqti_driver_postgresql-opam__c__1.6.0-c73aff2f/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__dream-opam__c__1.0.0~alpha2-262b1cb3/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__dune-opam__c__2.9.1-ac6b800c/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ocaml_lsp_server-opam__c__1.8.2-9c49b39c/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/ocaml-4.12.0-44d44425/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__caqti-opam__c__1.6.0-2bb83340/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__postgresql-opam__c__5.0.0-66a9f9e0/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__angstrom-opam__c__0.15.0-13f35297/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__base64-opam__c__3.5.0-2a7c7f7b/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__bigarray_compat-opam__c__1.0.0-38e88651/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__bigstringaf-opam__c__0.8.0-50aea7f1/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__caqti_lwt-opam__c__1.6.0-749b36ca/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__conf_libev-a0da830f/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__cstruct-opam__c__6.0.1-c5d1f6da/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__digestif-opam__c__1.0.1-4a47f6ea/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__faraday-opam__c__0.8.1-0ab0929d/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__faraday_lwt_unix-opam__c__0.8.1-c2e4269c/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__fmt-opam__c__0.8.9-4881af4a/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__graphql_lwt-opam__c__0.13.0-e33b165e/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__graphql__parser-opam__c__0.13.0-2507556c/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__hmap-opam__c__0.8.1-7f4bba39/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__logs-opam__c__0.7.0-9d23c532/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__lwt-opam__c__5.4.2-a5df50fe/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__lwt__ppx-opam__c__2.0.2-ca310cff/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__lwt__ssl-opam__c__1.1.3-2990903f/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__magic_mime-opam__c__1.2.0-1c565288/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__mirage_crypto-opam__c__0.10.3-d36c7447/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__mirage_crypto_rng-opam__c__0.10.3-49031c95/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__multipart__form-opam__c__0.3.0-3d008790/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__psq-opam__c__0.2.0-484336a3/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__result-opam__c__1.5-2cbd7862/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ssl-opam__c__0.5.10-06695953/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__uri-opam__c__4.2.0-57d62655/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-32ae4cec/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__csexp-opam__c__1.5.1-1e09518f/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__dot_merlin_reader-opam__c__4.1-768f17d3/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__dune_build_info-opam__c__2.9.1-88daf8c9/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ocamlformat_rpc_lib-opam__c__0.18.0-526ae44b/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__pp-opam__c__1.1.2-8d1a5c1f/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ppx__yojson__conv__lib-opam__c__v0.14.0-3f0d15b8/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__re-opam__c__1.10.3-e7019590/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__cppo-opam__c__1.6.7-033dff8b/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ptime-opam__c__0.8.5-6b2a563e/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__base_bytes-opam__c__base-26cc8db1/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__conf_postgresql-opam__c__1-8de24451/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__dune_configurator-opam__c__2.9.1-b56732ab/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ocaml_syntax_shims-opam__c__1.0.0-14110c14/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__conf_pkg_config-opam__c__2-583f8de9/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__eqaf-opam__c__0.8-77245af2/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.3.0-041fcf02/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__faraday_lwt-opam__c__0.8.1-ff99c59c/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-02dc052a/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.9.1-45972748/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__seq-opam__c__base-c3d68947/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__topkg-opam__c__1.0.3-4c1962cb/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__graphql-opam__c__0.13.0-ba83e021/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__menhir-opam__c__20210419-261379db/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__mmap-opam__c__1.1.0-4d078c48/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ocplib_endian-opam__c__1.1-37a8fd02/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ppxlib-opam__c__0.23.0-b2c9a52a/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__duration-opam__c__0.2.0-acc00aa0/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__mtime-opam__c__1.2.0-2ea5c0c0/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ke-opam__c__0.4-74b37480/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__pecu-opam__c__0.6-ad8981fa/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__prettym-opam__c__0.0.1-191e8508/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-68121235/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__unstrctrd-opam__c__0.2-ffb5ebe6/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-dbaacc99/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__conf_libssl-opam__c__3-c98a77c9/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__stringext-opam__c__1.6.0-1c188ef7/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-d2bc2eb0/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-a241e7b5/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__sexplib0-opam__c__v0.14.0-37ee2935/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/yarn_pkg_config-df6cabe1/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__menhirlib-opam__c__20210419-df551e02/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__menhirsdk-opam__c__20210419-2041e1d4/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ocaml_compiler_libs-opam__c__v0.12.4-30e4ffc6/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-e0ff9001/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__bigarray_overlap-opam__c__0.2.0-0b0c7013/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-74b663e9/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/esy_openssl-ce4de5b0/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__conf_autoconf-49abf111/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/esy_help2man-19d4fe24/lib"
+#      ; External
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/opam__s__ocamlfind-opam__c__1.9.1-45972748/lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0"
+#      ; standard_library_default =
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/ocaml-4.12.0-44d44425/lib/ocaml"
+#      ; standard_library =
+#          "/Users/dennisdang/.esy/3_____________________________________________________________/i/ocaml-4.12.0-44d44425/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = false
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin20.4.0"
+#      ; target = "x86_64-apple-darwin20.4.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
