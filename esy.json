@@ -8,8 +8,7 @@
         "@opam/dream": "1.0.0~alpha2",
         "@opam/dune": "^2.0",
         "ocaml": "4.12.x",
-        "@opam/ocaml-lsp-server": "*",
-        "@opam/ocamlfind-secondary": "1.8.1"
+        "@opam/ocaml-lsp-server": "*"
     },
     "devDependencies": {},
     "resolutions": {

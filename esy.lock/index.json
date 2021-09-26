@@ -1,5 +1,5 @@
 {
-  "checksum": "b512b25aedb46242b6b064b91d492160",
+  "checksum": "41859259af52350fe80ad734db2b37c3",
   "root": "priority-box@link-dev:./esy.json",
   "node": {
     "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#db3a0b63883606dd57c54a7158d560d6cba8cd79@d41d8cd9": {
@@ -26,7 +26,6 @@
       "overrides": [],
       "dependencies": [
         "ocaml@4.12.0@d41d8cd9",
-        "@opam/ocamlfind-secondary@opam:1.8.1@ea0c311b",
         "@opam/ocaml-lsp-server@opam:1.8.2@f070db74",
         "@opam/dune@opam:2.9.1@1e504822",
         "@opam/dream@opam:1.0.0~alpha2@5b9d18af",
@@ -761,39 +760,6 @@
         "@opam/dune@opam:2.9.1@1e504822", "@opam/csexp@opam:1.5.1@8a8fb3a7"
       ]
     },
-    "@opam/ocamlfind-secondary@opam:1.8.1@ea0c311b": {
-      "id": "@opam/ocamlfind-secondary@opam:1.8.1@ea0c311b",
-      "name": "@opam/ocamlfind-secondary",
-      "version": "opam:1.8.1",
-      "source": {
-        "type": "install",
-        "source": [
-          "archive:https://opam.ocaml.org/cache/md5/18/18ca650982c15536616dea0e422cbd8c#md5:18ca650982c15536616dea0e422cbd8c",
-          "archive:http://download2.camlcity.org/download/findlib-1.8.1.tar.gz#md5:18ca650982c15536616dea0e422cbd8c",
-          "archive:http://download.camlcity.org/download/findlib-1.8.1.tar.gz#md5:18ca650982c15536616dea0e422cbd8c"
-        ],
-        "opam": {
-          "name": "ocamlfind-secondary",
-          "version": "1.8.1",
-          "path": "esy.lock/opam/ocamlfind-secondary.1.8.1"
-        }
-      },
-      "overrides": [
-        {
-          "opamoverride":
-            "esy.lock/overrides/opam__s__ocamlfind_secondary_opam__c__1.8.1_opam_override"
-        }
-      ],
-      "dependencies": [
-        "@opam/ocamlfind@opam:1.9.1@b748edf6",
-        "@opam/ocaml-secondary-compiler@opam:4.08.1-1@c6af8039",
-        "@esy-ocaml/substs@0.0.1@d41d8cd9"
-      ],
-      "devDependencies": [
-        "@opam/ocamlfind@opam:1.9.1@b748edf6",
-        "@opam/ocaml-secondary-compiler@opam:4.08.1-1@c6af8039"
-      ]
-    },
     "@opam/ocamlfind@opam:1.9.1@b748edf6": {
       "id": "@opam/ocamlfind@opam:1.9.1@b748edf6",
       "name": "@opam/ocamlfind",
@@ -872,31 +838,6 @@
       "devDependencies": [
         "ocaml@4.12.0@d41d8cd9", "@opam/dune@opam:2.9.1@1e504822"
       ]
-    },
-    "@opam/ocaml-secondary-compiler@opam:4.08.1-1@c6af8039": {
-      "id": "@opam/ocaml-secondary-compiler@opam:4.08.1-1@c6af8039",
-      "name": "@opam/ocaml-secondary-compiler",
-      "version": "opam:4.08.1-1",
-      "source": {
-        "type": "install",
-        "source": [
-          "archive:https://opam.ocaml.org/cache/md5/72/723b6bfe8cf5abcbccc6911143f71055#md5:723b6bfe8cf5abcbccc6911143f71055",
-          "archive:https://github.com/ocaml/ocaml/archive/4.08.1.tar.gz#md5:723b6bfe8cf5abcbccc6911143f71055"
-        ],
-        "opam": {
-          "name": "ocaml-secondary-compiler",
-          "version": "4.08.1-1",
-          "path": "esy.lock/opam/ocaml-secondary-compiler.4.08.1-1"
-        }
-      },
-      "overrides": [
-        {
-          "opamoverride":
-            "esy.lock/overrides/opam__s__ocaml_secondary_compiler_opam__c__4.08.1_1_opam_override"
-        }
-      ],
-      "dependencies": [ "@esy-ocaml/substs@0.0.1@d41d8cd9" ],
-      "devDependencies": []
     },
     "@opam/ocaml-lsp-server@opam:1.8.2@f070db74": {
       "id": "@opam/ocaml-lsp-server@opam:1.8.2@f070db74",
@@ -1763,16 +1704,12 @@
       },
       "overrides": [],
       "dependencies": [
-        "ocaml@4.12.0@d41d8cd9",
-        "@opam/ocamlfind-secondary@opam:1.8.1@ea0c311b",
-        "@opam/base-unix@opam:base@87d0b2eb",
+        "ocaml@4.12.0@d41d8cd9", "@opam/base-unix@opam:base@87d0b2eb",
         "@opam/base-threads@opam:base@36803084",
         "@esy-ocaml/substs@0.0.1@d41d8cd9"
       ],
       "devDependencies": [
-        "ocaml@4.12.0@d41d8cd9",
-        "@opam/ocamlfind-secondary@opam:1.8.1@ea0c311b",
-        "@opam/base-unix@opam:base@87d0b2eb",
+        "ocaml@4.12.0@d41d8cd9", "@opam/base-unix@opam:base@87d0b2eb",
         "@opam/base-threads@opam:base@36803084"
       ]
     },
