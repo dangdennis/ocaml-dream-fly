@@ -1,6 +1,6 @@
 opam-version: "2.0"
 maintainer: "Dennis Dang"
-description: "Priority box slack bot"
+description: "Movement reminder slack bot"
 
 depends: [
   "ocaml" {>= "4.08.0"}
